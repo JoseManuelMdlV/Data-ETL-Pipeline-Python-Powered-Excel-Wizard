@@ -12,6 +12,9 @@ Este proyecto responde a una necesidad del grupo de Tribología, en la que eran 
 - Resolución de problemas
 
 ## Explicación del código
+
+DISCLAIMER: El código apuntaba a resolver un problema concreto del grupo de trabajo y, por ende, muchos comentarios o explicaciones hablan de forma explícita de según qué cosas para que los distintos miembros del grupo, incluso no sabiendo programar, sean capaces de alterar el código para la introducción de variables. Es por ello, y porque el objetivo final de este perfil de github es el de mostrar lo que sé hacer, que voy a omitir todos los comentarios del código. 
+
 Paso 1. Comenzamos importando las librerías que nos van a hacer falta
 
     import pandas as pd
@@ -146,3 +149,9 @@ Paso 6. Creamos los gráficos que creamos pertinentes.
     donut.style = 2
     
     es.save(r'C:\Users\Garantia\Desktop\Calculos_Optix\Excels\Escalera_P.xlsx')
+
+Una vez corremos el progama, introducimos los timestamp que nos pide siguiendo el formato y como salida deberíamos obtener un archivo .xlsx donde se muestren los datos volcados, los cálculos realizados y las gráficas ploteadas, tal y como se puede ver en la figura 1.
+
+![image](https://github.com/JoseManuelMdlV/Data-ETL-Pipeline-Python-Powered-Excel-Wizard/assets/83475119/d66d4c17-9338-45fb-a657-bebd78f91824)
+
+<b>Fig. 1.</b> Salida del código.
