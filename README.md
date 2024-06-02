@@ -1,7 +1,11 @@
 # Data ETL Pipeline: Python Powered Excel Wizard
 
 ## Objetivo
-Este proyecto responde a una necesidad del grupo de Tribología, en la que eran incapaces de trabajar con archivos que guardaban los datos de presiones parciales dentro de la cámara de síntesis de PVD, donde realizan los recubrimientos de substratos metálicos para proyectos propios o de colaboración con entidades externas. La idea del código es que sea capaz de leer el archivo .csv en el que el programa de medición ha grabado los datos, transformarlos en acuerdo a las necesidades del proyecto, y volcarlos en un archivo .xlsx donde ya estarán dibujadas las gráficas pertinentes.
+Este proyecto responde a una necesidad del grupo de Tribología, en la que eran incapaces de trabajar con archivos que guardaban los datos de presiones parciales dentro de la cámara de síntesis de PVD, donde realizan los recubrimientos de substratos metálicos para proyectos propios o de colaboración con entidades externas. La idea del código es que sea capaz de leer el archivo .csv en el que el programa de medición ha grabado los datos, transformarlos en acuerdo a las necesidades del proyecto, y volcarlos en un archivo .xlsx donde ya estarán dibujadas las gráficas pertinentes, tal y como se muestra en la figura 1.
+
+![image](https://github.com/JoseManuelMdlV/Data-ETL-Pipeline-Python-Powered-Excel-Wizard/assets/83475119/d66d4c17-9338-45fb-a657-bebd78f91824)
+
+<b>Fig. 1.</b> Salida del código.
 
 ## Habilidades puestas en juego
 - Programación con Python
@@ -150,8 +154,4 @@ Paso 6. Creamos los gráficos que creamos pertinentes.
     
     es.save(r'C:\Users\Garantia\Desktop\Calculos_Optix\Excels\Escalera_P.xlsx')
 
-Una vez corremos el progama, introducimos los timestamp que nos pide siguiendo el formato y como salida deberíamos obtener un archivo .xlsx donde se muestren los datos volcados, los cálculos realizados y las gráficas ploteadas, tal y como se puede ver en la figura 1.
-
-![image](https://github.com/JoseManuelMdlV/Data-ETL-Pipeline-Python-Powered-Excel-Wizard/assets/83475119/d66d4c17-9338-45fb-a657-bebd78f91824)
-
-<b>Fig. 1.</b> Salida del código.
+Una vez corremos el progama, introducimos los timestamp que nos pide siguiendo el formato y como salida deberíamos obtener un archivo .xlsx donde se muestren los datos volcados, los cálculos realizados y las gráficas ploteadas, tal y como se ha podido ver en la figura 1.
