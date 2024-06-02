@@ -154,4 +154,6 @@ Paso 6. Creamos los gráficos que creamos pertinentes.
     
     es.save(r'C:\Users\Garantia\Desktop\Calculos_Optix\Excels\Escalera_P.xlsx')
 
-Una vez corremos el progama, introducimos los timestamp que nos pide siguiendo el formato y como salida deberíamos obtener un archivo .xlsx donde se muestren los datos volcados, los cálculos realizados y las gráficas ploteadas, tal y como se ha podido ver en la figura 1.
+Una vez corremos el progama, introducimos los timestamp que nos pide siguiendo el formato y como salida deberíamos obtener un archivo .xlsx donde se muestren los datos volcados, los cálculos realizados y las gráficas ploteadas, tal y como se ha podido ver en la figura 1, donde tendremos una hoja por cada una de las etapas de las cuales se compone nuestro experimento (en mi caso particular, capas de un recubrimiento de una placa de acero).
+
+Si ahora se quisiese hacer una serie de visualizaciones en PowerBI, bastaría con cargar el archivo y hacer lo que se desease. Aunque es cierto que quizás sea necesario hacer algunas transformaciones previas en tanto que los cálculos como los promedios y las desviaciones estándar no están en una columna a parte, si no adheridas al final de las columnas originales.
